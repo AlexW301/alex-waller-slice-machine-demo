@@ -19,6 +19,9 @@
           "choices": {
             "call_to_action": {
               "type": "SharedSlice"
+            },
+            "tools": {
+              "type": "SharedSlice"
             }
           }
         }

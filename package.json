@@ -30,9 +30,10 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@headlessui/react": "^1.4.1",
-    "@prismicio/client": "^6.0.0",
-    "@prismicio/helpers": "^2.0.0",
-    "@prismicio/react": "^2.0.3-debug.0",
+    "@prismicio/client": "^6.6.2",
+    "@prismicio/helpers": "^2.3.2",
+    "@prismicio/react": "^2.4.3",
+    "@prismicio/slice-simulator-react": "^0.2.2",
     "@tailwindcss/line-clamp": "^0.2.2",
     "@tailwindcss/typography": "^0.4.1",
     "next": "^11.1.2",
@@ -70,7 +71,7 @@
     "prettier": "^2.3.2",
     "prismic-cli": "^4.2.0",
     "shx": "^0.3.3",
-    "slice-machine-ui": "^0.1.2",
+    "slice-machine-ui": "^0.4.1",
     "sm-commons": "^0.0.24",
     "tailwindcss": "^2.2.7"
   }

@@ -1,6 +1,7 @@
 {
   "slices": {
-    "HeroSlice": {}
+    "HeroSlice": {},
+    "Tools": {}
   },
   "_cts": {
     "blogRoot": {},

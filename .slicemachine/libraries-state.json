@@ -1,0 +1,596 @@
+{
+  "slices": {
+    "components": {
+      "call_to_action": {
+        "library": "slices",
+        "id": "call_to_action",
+        "name": "CallToAction",
+        "description": "CallToAction",
+        "model": {
+          "id": "call_to_action",
+          "type": "SharedSlice",
+          "name": "CallToAction",
+          "description": "CallToAction",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "CallToAction",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1,heading2"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,strong,em,hyperlink"
+                  }
+                },
+                "primaryLink": {
+                  "config": {
+                    "label": "Primary Link",
+                    "placeholder": "",
+                    "select": null,
+                    "allowTargetBlank": true
+                  },
+                  "type": "Link"
+                },
+                "primaryLinkLabel": {
+                  "config": {
+                    "label": "Primary Link Label",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "secondaryLink": {
+                  "config": {
+                    "label": "Secondary Link",
+                    "placeholder": "",
+                    "select": null,
+                    "allowTargetBlank": true
+                  },
+                  "type": "Link"
+                },
+                "secondaryLinkLabel": {
+                  "config": {
+                    "label": "Secondary Link Label",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "small",
+              "name": "Small",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "CallToAction",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading3"
+                  }
+                },
+                "primaryLink": {
+                  "config": {
+                    "label": "Primary Link",
+                    "placeholder": "",
+                    "select": null,
+                    "allowTargetBlank": true
+                  },
+                  "type": "Link"
+                },
+                "primaryLinkLabel": {
+                  "config": {
+                    "label": "Primary Link Label",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "secondaryLink": {
+                  "config": {
+                    "label": "Secondary Link",
+                    "placeholder": "",
+                    "select": null,
+                    "allowTargetBlank": true
+                  },
+                  "type": "Link"
+                },
+                "secondaryLinkLabel": {
+                  "config": {
+                    "label": "Secondary Link Label",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "withImage",
+              "name": "With Image",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "CallToAction",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1,heading2"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,strong,em,hyperlink"
+                  }
+                },
+                "primaryLink": {
+                  "config": {
+                    "label": "Primary Link",
+                    "placeholder": "",
+                    "select": null,
+                    "allowTargetBlank": true
+                  },
+                  "type": "Link"
+                },
+                "primaryLinkLabel": {
+                  "config": {
+                    "label": "Primary Link Label",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "secondaryLink": {
+                  "config": {
+                    "label": "Secondary Link",
+                    "placeholder": "",
+                    "select": null,
+                    "allowTargetBlank": true
+                  },
+                  "type": "Link"
+                },
+                "secondaryLinkLabel": {
+                  "config": {
+                    "label": "Secondary Link Label",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "call_to_action",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Reintermediate magnetic eyeballs",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Mollit amet Lorem fugiat esse enim laborum. Excepteur ad incididunt sint occaecat nisi aliqua tempor reprehenderit. Tempor mollit est deserunt id et anim.",
+                  "spans": []
+                }
+              ],
+              "primaryLink": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              },
+              "primaryLinkLabel": "evolve synergistic portals",
+              "secondaryLink": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              },
+              "secondaryLinkLabel": "reinvent collaborative experiences"
+            }
+          },
+          "small": {
+            "variation": "small",
+            "name": "Small",
+            "slice_type": "call_to_action",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading3",
+                  "text": "Envisioneer web-enabled models",
+                  "spans": []
+                }
+              ],
+              "primaryLink": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "primaryLinkLabel": "monetize e-business synergies",
+              "secondaryLink": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              },
+              "secondaryLinkLabel": "empower vertical e-business"
+            }
+          },
+          "withImage": {
+            "variation": "withImage",
+            "name": "With Image",
+            "slice_type": "call_to_action",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Mesh enterprise deliverables",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Dolore culpa cupidatat cillum tempor amet. Et ea sunt Lorem deserunt culpa incididunt commodo et irure anim elit. Reprehenderit enim ad pariatur deserunt esse ea anim laboris ut voluptate sunt nostrud.",
+                  "spans": []
+                }
+              ],
+              "primaryLink": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              },
+              "primaryLinkLabel": "engineer B2C supply-chains",
+              "secondaryLink": {
+                "link_type": "Web",
+                "url": "https://prismic.io"
+              },
+              "secondaryLinkLabel": "architect dot-com vortals",
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "navigation": {
+        "library": "slices",
+        "id": "navigation",
+        "name": "Navigation",
+        "description": "Navigation",
+        "model": {
+          "id": "navigation",
+          "type": "SharedSlice",
+          "name": "Navigation",
+          "description": "Navigation",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Navigation",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "link": {
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": null,
+                    "allowTargetBlank": true
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "withSubnav",
+              "name": "With Subnav",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Navigation",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "link": {
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": null,
+                    "allowTargetBlank": true
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {
+                "title": {
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  },
+                  "type": "StructuredText"
+                },
+                "link": {
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": null,
+                    "allowTargetBlank": true
+                  },
+                  "type": "Link"
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "navigation",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "paragraph",
+                  "text": "Anim cillum voluptate mollit ex est aliquip et anim occaecat cupidatat est ea. Pariatur nostrud enim ullamco laborum cupidatat anim fugiat est cupidatat incididunt veniam laborum non eu.",
+                  "spans": []
+                }
+              ],
+              "link": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              }
+            }
+          },
+          "withSubnav": {
+            "variation": "withSubnav",
+            "name": "With Subnav",
+            "slice_type": "navigation",
+            "items": [
+              {
+                "title": [
+                  {
+                    "type": "paragraph",
+                    "text": "Officia excepteur occaecat mollit irure amet mollit reprehenderit minim aliquip aute sunt et ut duis sint. Amet commodo mollit incididunt incididunt.",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              },
+              {
+                "title": [
+                  {
+                    "type": "paragraph",
+                    "text": "Voluptate eu laboris anim ullamco deserunt reprehenderit fugiat irure. Nostrud ipsum anim reprehenderit sint deserunt ex enim cupidatat sunt.",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "title": [
+                  {
+                    "type": "paragraph",
+                    "text": "Eu elit amet anim ea duis irure dolore aliquip nisi consectetur adipisicing. Excepteur aliqua officia Lorem eiusmod duis commodo commodo cupidatat aute mollit nulla qui eu ad enim.",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "paragraph",
+                  "text": "Pariatur mollit enim nostrud veniam.",
+                  "spans": []
+                }
+              ],
+              "link": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "tools": {
+        "library": "slices",
+        "id": "tools",
+        "name": "Tools",
+        "description": "Tools",
+        "model": {
+          "id": "tools",
+          "type": "SharedSlice",
+          "name": "Tools",
+          "description": "Tools",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Tools",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "tools",
+            "items": [
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?w=900&h=500&fit=crop"
+                }
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Optimize e-business blockchains",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Sint mollit ut irure eiusmod ipsum quis.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}
